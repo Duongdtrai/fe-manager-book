@@ -1,0 +1,25 @@
+.container-category {
+  .ant-menu-title-content {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .title-book {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+	.add-cart {
+    font-size: 16px;
+    margin: 5px 3px;
+    width: auto;
+    border-width: 1px;
+    max-width: 300px;
+    flex-grow: 1;
+    background-color: #f76b6a;
+    border-color: #f76b6a;
+    color: #fff;
+  }
+}

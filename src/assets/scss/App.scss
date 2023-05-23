@@ -1,0 +1,116 @@
+@import "./colors";
+@tailwind components;
+@tailwind utilities;
+
+body,
+.App {
+  min-height: 100vh;
+  background-color: $c1;
+  margin: 0;
+  padding: 0;
+}
+
+.yb {
+  &-logo {
+    height: 45px;
+    margin: 10px 5px 5px 5px;
+  }
+
+  &-c2 {
+    color: $c2;
+  }
+
+  &-c-white {
+    color: $c-white;
+  }
+
+  &-input,
+  &-btn {
+    height: 50px;
+  }
+
+  &-w-100 {
+    width: 100%;
+  }
+
+  &-fz-1 {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+@import "./auth";
+
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+
+.notes-month section {
+  font-size: 28px;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.site-layout-content {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.ant-result-404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ant-result-image {
+  margin: 0 !important;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+.ant-menu-title-content{
+  // font-size: 18px;
+  // font-weight: 500;
+}

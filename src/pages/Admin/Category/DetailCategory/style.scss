@@ -1,0 +1,11 @@
+.create-author-container {
+  .ant-upload-select {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .ant-upload-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,16 @@
+.yb {
+  &-auth-page {
+    max-width: 540px;
+    margin: 40px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  &-auth-form {
+    margin-bottom: 50px;
+
+    @media screen and (max-width: 500px) {
+      padding: 0;
+    }
+  }
+}
